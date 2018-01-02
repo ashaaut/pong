@@ -1,0 +1,98 @@
+body {
+  background-color: #F7DFF9;
+}
+
+#home {
+  position: fixed;
+  text-align: center;
+  margin-left: 200px;
+  margin-top: 100px;
+}
+
+#field {
+  border: 2px solid black;
+  height: 500px;
+  width: 1000px;
+  background-color: #1BDE59;
+  /*margin-top: 100px;*/
+  display: inline-block;
+}
+
+#line {
+  border: 1px solid black;
+  height: 440px;
+  width: 3px;
+  position: relative;
+  background-color: black;
+  left: -30px;
+  top: 25px;
+  display: inline-block;
+}
+
+#ballField {
+  position: relative;
+  left: 0px;
+  top: 0px;
+  float: left;
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+}
+
+#ball {
+  height: 50px;
+  width: 50px;
+}
+
+#firstPaddle {
+  position: relative;
+  float: left;
+  left: -50px;
+  top: 50%;
+  display: inline-block;
+  border: 1px solid black;
+  height: 80px;
+  background-color: black;
+  width: 15px;
+}
+
+#button {
+  margin-top: 50px;
+  width: 100%;
+}
+
+#start {
+  position: relative;
+  height: 50px;
+  width: 50px;
+}
+
+#secondPaddle {
+  position: relative;
+  float: right;
+  right: 0px;
+  ;
+  top: 50%;
+  display: inline-block;
+  border: 1px solid black;
+  height: 80px;
+  background-color: black;
+  width: 15px;
+}
+
+#firstPlayerScoreBox {
+  border: 1px solid black;
+  height: 30px;
+  margin-left: 200px;
+  width: 80px;
+  font-size: 20px;
+}
+
+#secondPlayerScoreBox {
+  border: 1px solid black;
+  font-size: 20px;
+  margin-left: 700px;
+  margin-top: -35px;
+  height: 30px;
+  width: 80px;
+}
